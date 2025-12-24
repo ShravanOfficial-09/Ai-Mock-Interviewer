@@ -1,0 +1,9 @@
+window.onload = () => {
+  document.getElementById("register-btn")?.addEventListener("click", registerUser);
+  document.getElementById("login-btn")?.addEventListener("click", loginUser);
+  document.getElementById("logout-btn")?.addEventListener("click", logoutUser);
+  document.getElementById("generate-question-btn")?.addEventListener("click", generateQuestion);
+  document.getElementById("submit-response-btn")?.addEventListener("click", submitInterviewResponse);
+  document.getElementById("next-question-btn")?.addEventListener("click", nextQuestion);
+};
+
